@@ -12,8 +12,8 @@ h2 {
 #navbar {
   background-color: #1e1f21; /* red */
   color: #FFF;
-  padding: 0 15px;
-  height: 60px;
+  padding: 10px 15px;
+  height: 80px;
 }
 
 #navbar h2, #navbar ul, #navbar-list li,#navbar nav {
@@ -30,7 +30,7 @@ h2 {
   height: 40px;
   transform: rotate(45deg);
   position: absolute;
-  top: 10px;
+  top: 25px;
 }
 
 #navbar nav {
@@ -38,7 +38,7 @@ h2 {
 }
 
 #navbar ul {
-  margin-top: 22px;
+  margin-top: 25px;
 }
 
 #navbar li {
