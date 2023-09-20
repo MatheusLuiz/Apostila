@@ -1,39 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apostila - Desenvolvimento Web</title>
+  <title>Apostila</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="/img/book.png" type="image/x-icon">
 </head>
 
 <body>
+  <!-- navbar -->
+  <header id="navbar">
+    <img src="img/simbolo.png" alt="simbolo">
+    <h2>Desenvolvimento Web - Professora Juliana</h2>
+    <nav>
+      <ul id="navbar-list">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">Referências</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- fim navbar -->
+  <main>
+    <!-- banner início -->
+    <div id="main-banner">
+      <div id="banner-info">
+        <h1>Olá, Bem vindo a introdução do Desenvolvimento Web Básico</h1>
+      </div>
+    </div>
+    <!-- banner fim -->
+    <!-- about inicio -->
+    <section id="about-section">
+      <h2>Sobre o Desenvolvimento WEB</h2>
+      <p>O desenvolvimento web inclui criação, codificação e programação de sites e seus respectivos elementos e
+        linguagens. Ele também envolve integração com sistemas e ferramentas, armazenamento de banco de dados,
+        cibersegurança, entre outros, com o objetivo de estruturar cada detalhe de uma página da internet.</p>
+    </section>
+    <!-- about fim -->
+  </main>
+  <!-- inicio Explicação Básica -->
+  <section id="skills-section">
+    <div class="container">
+      <div class="skills-container">
+        <img src="img/simboloHTML.jpg" alt="simbolo">
+        <h3>HTML</h3>
+        <p>HTML não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura do seu
+          conteúdo. HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar diferentes partes do
+          conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas podem transformar uma palavra ou
+          imagem num hiperlink, pode colocar palavras em itálico, pode aumentar ou diminuir a fonte e assim por diante.
+        </p>
+      </div>
+      <div class="skills-container central">
+        <img src="img/simboloCSS.png" alt="simbolo">
+        <h3>CSS</h3>
+        <p>Assim como o HTML, o CSS não é realmente uma linguagem de programação. Também não é uma linguagem de marcação
+          — é uma linguagem de folhas de estilos. Isso significa que o CSS permite aplicar estilos seletivamente a
+          elementos em documentos HTML.</p>
+      </div>
+    </div>
+  </section>
+  <!--Fim Explicação Básica -->
 
-    <header>
-
-        <h1>
-            Apostila de HTML e CSS!
-        </h1>
-    </header>
-
-
-    <h2> HTML</h2>
-
-    <p>é a linguagem de Marcação que nós usamos para
-        estruturar e dar significado para o nosso conteúdo web. Por
-        exemplo, definindo parágrafos, cabeçalhos, tabelas de
-        conteúdo, ou inserindo imagens e vídeos na página. 
-    </p>
-
-    <h2> CSS</h2>
-
-    <p> é uma linguagem de regras de estilo que nós usamos
-        para aplicar estilo ao nosso conteudo HTML. Por exemplo,
-        definindo cores de fundo e fontes, e posicionando nosso
-        conteúdo em múltiplas colunas.
-
-    </p>
-
+  <!-- footer inicio -->
+  <footer>
+    <p>Desenvolvido por <span class="detail">Matheus Lucena </span></p>
+  </footer>
+  <!-- footer fim -->
 </body>
 
 </html>
